@@ -1,0 +1,21 @@
+.container{
+  display:flex;
+  flex-direction:column-reverse;
+}
+.row {
+  display:flex;
+}
+
+.square {
+  height:70px;
+  width:70px;
+  border:1px solid black;
+  padding:2px;
+}
+
+.square.roverPosition {
+  background: yellow;
+}
+.square.roverPosition.crashed {
+  background: red;
+}
